@@ -2,7 +2,8 @@
     "components": [
         {
             "componentName": "simplebutton",
-            "config": "/dist/simplebutton.json"
+            "preview": "/dist/simplebutton/button_img.jpeg",
+            "config": "/dist/simplebutton/simplebutton.json"
         }
     ]
 }
