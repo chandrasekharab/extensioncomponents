@@ -2,7 +2,12 @@
     "components": [
         {
             "componentName": "simplebutton",
-            "preview": "/dist/simplebutton/button_img.jpeg",
+            "preview": "https://css-tricks.com/wp-content/uploads/2018/05/button.jpg",
+            "config": "/dist/simplebutton/simplebutton.json"
+        },
+        {
+            "componentName": "simplechart",
+            "preview": "https://www.excel-easy.com/examples/images/line-chart/line-chart.png",
             "config": "/dist/simplebutton/simplebutton.json"
         }
     ]
