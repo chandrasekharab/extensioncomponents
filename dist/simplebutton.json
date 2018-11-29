@@ -1,0 +1,8 @@
+{
+    "componentName": "pega_extension_simplebutton",
+    "scripts": ["pegaextensionsimplebutton.js"],
+    "properties": ["p1"],
+    "setting": {
+        "property": "text"
+    }
+}

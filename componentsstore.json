@@ -1,0 +1,8 @@
+{
+    "components": [
+        {
+            "componentName": "simplebutton",
+            "config": "/dist/simplebutton.json"
+        }
+    ]
+}
