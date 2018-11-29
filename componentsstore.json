@@ -2,7 +2,7 @@
     "components": [
         {
             "componentName": "simplebutton",
-            "description": "Simple Button",
+            "description": "Simple Button : Simple button for experiment",
             "preview": "https://css-tricks.com/wp-content/uploads/2018/05/button.jpg",
             "config": "/dist/simplebutton/simplebutton.json"
         },
