@@ -11,6 +11,13 @@
             "description": "Simple Chart : Flexible to render any format",
             "preview": "https://www.excel-easy.com/examples/images/line-chart/line-chart.png",
             "config": "/dist/simplebutton/simplebutton.json"
+        },
+        {
+            "componentName": "treegrid",
+            "description": "Tree grid : Flexible to render any format",
+            "preview": "https://docs.dhtmlx.com/media/treegrid/treegrid_front.png",
+            "config": "/dist/simplebutton/simplebutton.json"
         }
+        
     ]
 }
