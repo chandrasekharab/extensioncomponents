@@ -1,0 +1,18 @@
+{
+    "componentName": "pega_ext_pie",
+    "scripts": ["pega_ext_pie.js"],
+    "properties": ["p1"],
+    "settings": [
+        {
+            "label": "Data Source",
+            "type": "text",
+            "prompt": "datapage",
+            "bind": "datasource"
+        },{
+            "label": "Properties",
+            "type": "repeat",
+            "prompt": "property",
+            "bind": "properties"
+        }
+    ]
+}
