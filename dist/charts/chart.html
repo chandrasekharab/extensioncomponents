@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="vue.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/highcharts/highcharts-vue/1ce7e656/dist/script-tag/highcharts-vue.min.js"></script>
+
+
+
+
+</head>
+
+<body>
+    <div id="app">
+        <highcharts :options="chartOptions"></highcharts>
+    </div>
+
+
+    <script>
+        Vue.use(HighchartsVue.default);
+        var app = new Vue({
+            el: "#app",
+            data() {
+                return {
+                    chartOptions: {
+                        chart: {
+                            type: 'spline'
+                        },
+                        title: {
+                            text: ''
+                        },
+                        series: [{
+                            data: [10, 0, 8, 2, 6, 4, 5, 5]
+                        }]
+                    },
+                    title: ''
+                }
+            },
+            watch: {
+                title(newValue) {
+                    if (newValue === '') {
+                        this.chartOptions.title.text = ''
+                    } else {
+                        this.chartOptions.title.text = newValue
+                    }
+
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
